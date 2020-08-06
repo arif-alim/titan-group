@@ -18,7 +18,12 @@ Rails.application.configure do
   # or in config/master.key. This key is used to decrypt credentials (and other encrypted files).
   # config.require_master_key = true
 
+  # I added these
   config.serve_static_assets = true
+  config.assets.enabled = true
+  config.assets.compress = true
+  config.assets.digest = true
+
 
   config.public_file_server.enabled = ENV['RAILS_SERVE_STATIC_FILES'].present?
 
