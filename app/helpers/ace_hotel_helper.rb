@@ -1,0 +1,2 @@
+module AceHotelHelper
+end

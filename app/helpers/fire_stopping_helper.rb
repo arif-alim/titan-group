@@ -1,0 +1,2 @@
+module FireStoppingHelper
+end

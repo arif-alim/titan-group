@@ -1,0 +1,31 @@
+.dsn-nav-bar
+  .site-header
+    .extend-container
+      .inner-header
+        .main-logo
+          a href="/" 
+            img.dark-logo alt="" src="assets/img/logo-dark.png" /
+            img.light-logo alt="" src="assets/img/logo.png" /
+      nav.accent-menu.main-navigation
+        ul.extend-container
+          li
+            = link_to "Home", root_path
+          li
+            = link_to "About Us", about_us_path
+          li.custom-drop-down
+            = link_to "Services", services_path
+            ul
+              li
+                = link_to "Fireproofing", fireproofing_index_path
+              li
+                = link_to "Fire-stopping", fire_stopping_index_path
+              li
+                = link_to "Specialty Coating", specialty_coating_index_path
+              li
+                = link_to "Insulation", insulation_index_path
+          li
+            = link_to "Projects", projects_path
+          li
+            = link_to "News & Media", news_index_path
+          li
+            = link_to "Contact Us", contact_us_path

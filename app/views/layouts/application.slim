@@ -1,0 +1,19 @@
+doctype html
+html lang="en" 
+  head
+    = render 'shared/head'
+  body.dsn-effect-scroll.dsn-ajax data-dsn-mousemove="true" 
+    = render 'shared/loading'
+    = render 'shared/navigation'
+    main.main-root
+      #dsn-scrollbar
+        = yield
+        - unless current_page?(projects_path) || current_page?(ace_hotel_index_path)
+          - if current_page?(contact_us_path) 
+            = render 'shared/footer'
+          - else 
+            = render 'shared/partners'
+            = render 'shared/footer'
+    = render 'shared/wait_loader'
+    = render 'shared/cursor'
+    = render 'shared/jsfiles'
