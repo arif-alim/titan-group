@@ -17,8 +17,10 @@ link href="assets/css/plugins.css" rel="stylesheet"
 link href="assets/css/style.css" rel="stylesheet"
 
 = csrf_meta_tags
-= stylesheet_link_tag "application"
-= javascript_include_tag "application"
+/ = stylesheet_link_tag "application"
+/ = javascript_include_tag "application"
+
+/  With Webpacker
 / = javascript_pack_tag 'application'
 / = stylesheet_pack_tag 'application'
 / = stylesheet_link_tag 'application'
