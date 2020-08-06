@@ -19,7 +19,7 @@ Rails.application.configure do
   # config.require_master_key = true
 
   config.serve_static_assets = true
-  
+
   config.public_file_server.enabled = ENV['RAILS_SERVE_STATIC_FILES'].present?
 
   if ENV["RAILS_LOG_TO_STDOUT"].present?
@@ -101,7 +101,5 @@ Rails.application.configure do
 
   # Do not dump schema after migrations.
   config.active_record.dump_schema_after_migration = false
-
-  ruby ENV['CUSTOM_RUBY_VERSION'] || '2.3.3'
 
 end
