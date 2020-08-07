@@ -2722,14 +2722,14 @@ input[type="submit"] {
   -webkit-appearance: none;
   appearance: none;
   display: inline-block;
-  font-size: 14px;
+  font-size: 13.5px;
   font-weight: 600;
-  letter-spacing: 1px;
+  /*letter-spacing: 1px;*/
   line-height: 14px;
   /*text-transform: uppercase;*/
   cursor: pointer;
   border-radius: 0;
-  padding: 20px 41px;
+  padding: 15px 25px;
   margin-top: 0;
   -webkit-transition: background 0.3s, color 0.3s;
   -o-transition: background 0.3s, color 0.3s;
@@ -3277,7 +3277,7 @@ body.hamburger-menu .header-top {
 }
 
 .header-top .header-container .logo img {
-  width: 80px;
+  width: 160px;
 }
 
 .header-top .header-container .menu-icon {
@@ -3811,7 +3811,7 @@ body.nav-active .header-top .header-container .menu-icon:hover .text-menu .text-
 }
 
 .nav:after, .nav-content:after {
-  background: #212121;
+  background: #C51A25;
   -webkit-transition-delay: 0.1s;
   -o-transition-delay: 0.1s;
   transition-delay: 0.1s;
@@ -3891,8 +3891,8 @@ body.nav-active .header-top .header-container .menu-icon:hover .text-menu .text-
   position: relative;
   display: block;
   font-family: 'Open Sans', sans-serif;
-  font-size: 40px;
-  letter-spacing: 3px;
+  font-size: 36px;
+  letter-spacing: 1px;
   font-weight: bold;
   cursor: pointer;
   overflow: hidden;
@@ -4471,7 +4471,7 @@ body.nav-active .dsn-nav-bar .icon-m .menu-icon__line {
 
 @media only screen and (max-width: 991px) {
   .v-light.nav-active .nav__list-item a {
-    color: #333;
+    color: #fff;
   }
 }
 
@@ -6533,6 +6533,7 @@ body.nav-active .dsn-nav-bar .icon-m .menu-icon__line {
   .intro-about .intro-content-text h2 {
     text-align: left;
     margin-bottom: 30px;
+    margin-top: 30px;
   }
   .intro-about .intro-content-text p {
     min-width: 100%;
@@ -6557,6 +6558,7 @@ body.nav-active .dsn-nav-bar .icon-m .menu-icon__line {
   .intro-about .intro-content-text {
     margin-left: 0;
     margin-right: 0;
+    margin-top: 30px;
   }
   .intro-about .intro-content-text h2 {
     font-size: 32px;
@@ -9554,7 +9556,7 @@ body.nav-active .dsn-nav-bar .icon-m .menu-icon__line {
 }
 
 .dsn-slider .footer-slid .control-num span {
-  font-size: 11vw;
+  font-size: 9vw;
   color: rgba(255, 255, 255, 0.03);
   -webkit-text-stroke: 1px rgba(255, 255, 255, 0.11);
   -webkit-transform: scale3d(1, 1.15, 1.15);
@@ -11783,7 +11785,7 @@ body.dsn-show-work .dsn-all-work .list-main:nth-of-type(20) .work-item {
 @media only screen and (max-width: 767px) {
   .box-info-contact {
     padding: 0;
-    margin-bottom: 50px;
+    margin-bottom: 10px;
     background-color: transparent;
   }
 }
