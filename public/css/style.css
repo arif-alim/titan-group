@@ -5334,13 +5334,13 @@ body.nav-active .dsn-nav-bar .icon-m .menu-icon__line {
 
 @media only screen and (max-width: 991px) {
   .gallery-col .box-im {
-    padding: 40px 40px 40px 60px;
+    padding: 30px 30px 30px 45px;
   }
 }
 
 @media only screen and (max-width: 767px) {
   .gallery-col .box-im {
-    padding: 30px;
+    padding: 10px;
   }
   .gallery-col .box-im .caption {
     left: 20px;
