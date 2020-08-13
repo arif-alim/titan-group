@@ -31,7 +31,7 @@
       right: -25px;
       bottom: -30px;
       z-index: 0;
-      background: url(../img/dot-pattern.png) right;
+      background: url(..//img/dot-pattern.png) right;
       background-size: 10px;
       opacity: 0.2; }
     .header-post .News-img-wrapper img {

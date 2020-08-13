@@ -8,8 +8,8 @@ html lang="en"
     main.main-root
       #dsn-scrollbar
         = yield
-        - unless current_page?(projects_path) || current_page?(ace_hotel_index_path)
-          - if current_page?(contact_us_path) 
+        - unless current_page?(projects_path)
+          - if current_page?(contact_us_path) || current_page?(ace_hotel_projects_path) || current_page?(king_avenue_west_projects_path) || current_page?(yonge_street_projects_path) || current_page?(dasha_retail_projects_path) || current_page?(hudson_bay_projects_path) || current_page?(kylemore_communities_projects_path) || current_page?(lawyer_office_projects_path) || current_page?(ttc_dupont_station_projects_path) || current_page?(ttc_glencairn_station_projects_path) || current_page?(ttc_greenwood_yard_projects_path)
             = render 'shared/footer'
           - else 
             = render 'shared/partners'

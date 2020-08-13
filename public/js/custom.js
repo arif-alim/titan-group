@@ -2020,7 +2020,7 @@ function initMap() {
             var marker = new google.maps.Marker( {
                 position : letLeng,
                 animation : google.maps.Animation.BOUNCE,
-                icon : "img/map-marker.png",
+                icon : "/img/map-marker.png",
                 title : "ASL",
                 map : map,
 

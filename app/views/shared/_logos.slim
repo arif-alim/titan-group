@@ -1,0 +1,29 @@
+.main-logo
+	- if current_page?(insulation_index_path) || current_page?(commercial_insulation_index_path) || current_page?(residential_insulation_index_path)
+		a href="/" 
+			img.dark-logo alt="" src="/img/logo/logo_dark_insulation.png" /
+			img.light-logo alt="" src="/img/logo/logo_light_insulation.png" /
+	- elsif current_page?(fireproofing_index_path) || current_page?(cementitious_fireproofing_index_path) || current_page?(intumescent_fireproofing_index_path)
+		a href="/" 
+			img.dark-logo alt="" src="/img/logo/logo_dark_fireproofing.png" /
+			img.light-logo alt="" src="/img/logo/logo_light_fireproofing.png" /
+	- elsif current_page?(fire_stopping_index_path) || current_page?(caulking_fire_stopping_index_path) || current_page?(spray_fire_stopping_index_path)
+		a href="/" 
+			img.dark-logo alt="" src="/img/logo/logo_dark_fire_stopping.png" /
+			img.light-logo alt="" src="/img/logo/logo_light_fire_stopping.png" /
+	- elsif current_page?(roof_coating_index_path) || current_page?(silicone_roof_coating_index_path) || current_page?(acrylic_roof_coating_index_path)
+		a href="/" 
+			img.dark-logo alt="" src="/img/logo/logo_dark_roof_coating.png" /
+			img.light-logo alt="" src="/img/logo/logo_light_roof_coating.png" /
+	- elsif current_page?(shop_application_index_path)
+		a href="/" 
+			img.dark-logo alt="" src="/img/logo/logo_dark_shop_application.png" /
+			img.light-logo alt="" src="/img/logo/logo_light_shop_application.png" /
+	- elsif current_page?(specialty_coating_index_path)
+		a href="/" 
+			img.dark-logo alt="" src="/img/logo/logo_dark_specialty_coating.png" /
+			img.light-logo alt="" src="/img/logo/logo_light_specialty_coating.png" /
+	- else
+		a href="/" 
+			img.dark-logo alt="" src="/img/logo/logo_dark.png" /
+			img.light-logo alt="" src="/img/logo/logo_light.png" /

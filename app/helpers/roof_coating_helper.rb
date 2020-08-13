@@ -1,0 +1,2 @@
+module RoofCoatingHelper
+end
