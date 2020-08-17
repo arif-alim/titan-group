@@ -27,17 +27,15 @@ footer.footer
             nav
               ul
                 li
-                  a href="/fireproofing" style="font-weight:700"
-                    | Fireproofing
+                  = link_to "Fireproofing", fireproofing_index_path
                 li
-                  a href="/firestopping" style="font-weight:700"
-                    | Firestopping
+                  = link_to "Fire-stopping", fire_stopping_index_path
                 li
-                  a href="/specialty_coating" style="font-weight:700"
-                    | Specialty Caulking
+                  = link_to "Insulation", insulation_index_path
                 li
-                  a href="/insulation" style="font-weight:700"
-                    | Insulation
+                  = link_to "Specialty Coating", specialty_coating_index_path
+                li
+                  = link_to "Shop Application", shop_application_index_path
         .col-md-3.dsn-col-footer
           .footer-block.col-contact
             h4.footer-title Contact

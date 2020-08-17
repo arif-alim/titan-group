@@ -1,0 +1,72 @@
+header
+  .header-hero.header-hero-2
+    .container.h-100
+      .row.align-items-center.h-100
+        .col-lg-12
+          .contenet-hero
+            h2 style="font-size:40px"
+              b
+                | Get in touch with a Titan
+            p
+              | We approach all projects with a Titan mentality, to ensure the highest quality work for our clients and guarantee 100% satisfaction!
+
+    .container.mb-50
+      .row
+        .col-lg-6
+          .box-info-contact
+            h3 style="font-size:24px" Start a new project?
+            h5 Visit our office
+            p
+              | We're looking forward to working with you on your project!
+            ul
+              li
+                p 
+                  b Phone
+                a href="tel:+14169039033"  +1 416.903.9033
+              li
+                p
+                  b Email
+                a href="mailto:info@titanfireproofing.com" target="_blank"  info@titanfireproofing.com
+              li
+                p 
+                  b Address
+                a href="https://goo.gl/maps/MmLEabF9ryEcD6Go9" target="_blank" 
+                  | 203-250 Sheppard Ave E.
+                  br/
+                  | North York
+                  br/
+                  | ON M2N6M9
+        .col-lg-6
+          .form-box
+            h3 style="font-size:24px" Send us a message
+            #contactusmessage
+            = simple_form_for @contact, :html => {:class => 'primary-form mt-30', remote: true } do |f|
+            .messages
+            .input__wrap.controls
+              .form-group
+                .entry
+                  = f.input :name, :required => true, :placeholder => "Name *", :label => false
+                .help-block.with-errors
+              .form-group
+                .entry
+                  = f.input :email, :required => true, :placeholder => "Email *", :label => false
+                .help-block.with-errors
+              .form-group
+                .entry
+                  = f.input :number, :required => true, :placeholder => "Phone Number *", :label => false
+                .help-block.with-errors
+              .form-group
+                .entry
+                  = f.input :message, :as => :text, :required => true, :placeholder => "Message *", :label => false
+                .help-block.with-errors
+              .form-group
+                .entry
+                  input#form_file name="file" placeholder=("Attach your project") type="file" /
+                .help-block.with-errors
+              .form-group
+                .entry
+                  .hidden
+                    = f.input :nickname, :hint => 'Leave this field blank!'
+              .image-zoom data-dsn="parallax" 
+                button 
+                  = f.button :submit, 'Message Titan'

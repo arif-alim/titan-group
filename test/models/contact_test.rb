@@ -1,6 +1,6 @@
 require 'test_helper'
 
-class RoofCoatingControllerTest < ActionDispatch::IntegrationTest
+class ContactTest < ActiveSupport::TestCase
   # test "the truth" do
   #   assert true
   # end

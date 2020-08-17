@@ -1608,6 +1608,11 @@ body > * {
   }
 }
 
+.section-margin30 {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
 .section-margin {
   margin-top: 72px;
   margin-bottom: 72px;
@@ -1615,8 +1620,8 @@ body > * {
 
 @media only screen and (max-width: 991px) {
   .section-margin {
-    margin-top: 72px;
-    margin-bottom: 72px;
+    margin-top: 30px;
+    margin-bottom: 30px;
   }
 }
 
@@ -2881,7 +2886,7 @@ a:hover, a:active {
   display: block;
   position: fixed;
   width: 100%;
-  padding-top: 10px;
+  padding-top: 12px;
   padding-bottom: 8px;
   z-index: 9000;
   -webkit-transition: all .2s ease-out;
@@ -2927,7 +2932,7 @@ a:hover, a:active {
 }
 
 .site-header .extend-container .inner-header .main-logo {
-  width: 244px;
+  width: 228px;
   /*padding-top: 4px;*/
   position: relative;
   z-index: 9999;
@@ -2973,7 +2978,7 @@ a:hover, a:active {
   font-weight: 400;
   line-height: 1;
   padding-right: 25px;
-  padding-top: 16px;
+  padding-top: 18px;
   position: relative;
   text-align: center;
 }
@@ -2998,7 +3003,7 @@ a:hover, a:active {
   -webkit-animation: shine 1s infinite;
   animation: shine 1s infinite;
   line-height: 15px;
-  font-weight: 700;
+  font-weight: 600;
 }
 
 .site-header .extend-container .main-navigation ul li a:hover {
@@ -5308,6 +5313,12 @@ body.nav-active .dsn-nav-bar .icon-m .menu-icon__line {
   width: 60%;
 }
 
+.img-box-xs {
+  position: relative;
+  height: 33vh;
+  overflow: hidden;
+}
+
 .img-box-small {
   position: relative;
   height: 80vh;
@@ -5941,7 +5952,7 @@ body.nav-active .dsn-nav-bar .icon-m .menu-icon__line {
 }
 
 .brand-client .wapper-client .logo-box img {
-  max-width: 180px;
+  max-width: 166px;
   margin: auto;
 }
 
@@ -12234,7 +12245,7 @@ label {
 footer {
   position: relative;
   z-index: 3;
-  padding: 0 50px 30px;
+  padding: 0 50px 20px;
 }
 
 @media only screen and (max-width: 767px) {
@@ -12372,8 +12383,8 @@ footer .copyright-social ul li:last-child {
 }
 
 .footer .footer-links {
-  padding-top: 80px;
-  padding-bottom: 80px;
+  padding-top: 60px;
+  padding-bottom: 40px;
 }
 
 @media only screen and (max-width: 767px) {
@@ -12423,7 +12434,7 @@ footer .copyright-social ul li:last-child {
 }
 
 .footer .footer-links .footer-block.col-menu ul li a {
-  font-weight: 600;
+  font-weight: 700;
 }
 
 .footer .footer-links .footer-block.col-contact p {
@@ -12550,10 +12561,10 @@ footer .copyright-social ul li:last-child {
 }
 
 .footer .copyright {
-  padding-top: 30px;
+  padding-top: 20px;
   font-size: 14px;
-  letter-spacing: 2.67px;
-  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  letter-spacing: 2px;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
 }
 
 .v-light .footer .copyright {

@@ -1,8 +1,10 @@
 Rails.application.routes.draw do
+  get 'contacts/new'
   resources :fireproofing, only: [:index] do
   	collection do
   		get :cementitious
   		get :intumescent
+  		get :epoxy
   	end
   end
 
@@ -20,7 +22,19 @@ Rails.application.routes.draw do
   	end
   end
 
-	resources :specialty_coating, only: :index
+	resources :specialty_coating, only: [:index] do
+		collection do
+			get :roof_coating
+			get :zinc_primers
+			get :epoxy_primers_and_finishes
+			get :polyurethane_finishes
+			get :high_temperature_coatings
+			get :acrylics_water_based
+			get :linings
+			get :alkyd_and_siloxane_coatings
+			get :urethane_finishes
+		end
+	end
 
 	resources :insulation, only: [:index] do
 		collection do
@@ -50,6 +64,12 @@ Rails.application.routes.draw do
 	resources :services, only: :index
 	resources :news, only: :index
 	resources :contact_us, only: :index
+
+	resources :home, only: [:index] do 
+		collection do 
+			get :contact_us
+		end
+	end
 	
   root to: 'home#index'
   get '/:page' => 'home#index'

@@ -7,4 +7,7 @@ class FireproofingController < ApplicationController
 
 	def intumescent
 	end
+
+	def epoxy
+	end
 end
