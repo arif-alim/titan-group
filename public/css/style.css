@@ -1,16 +1,6 @@
 @charset "UTF-8";
 /*-----------------------------------------------------------
 
-  Template Name: Droow - Ajax Portfolio Showcase HTML Template
-  Template URI: http://theme.dsngrid.com/droow
-  Description: Droow Ajax Portfolio Showcase HTML Template
-  Author: design_grid
-  Author URI: https://themeforest.net/user/design_grid
-  Version: 1.0.0
-
--------------------------------------------------------------*/
-/*-----------------------------------------------------------
-
     1.  Variables
     2.  Mixins
       - Mixins Master
@@ -5311,6 +5301,13 @@ body.nav-active .dsn-nav-bar .icon-m .menu-icon__line {
   display: block;
   margin: 0 20%;
   width: 60%;
+}
+
+.img-box-v {
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+  width: 30vh;
 }
 
 .img-box-xs {
@@ -12667,4 +12664,10 @@ footer .copyright-social ul li:last-child {
 }
 .mb-60 {
   margin-bottom: 60px;
+}
+
+
+.textbox {
+  width: calc(50%);
+  height: (100% + 20px);
 }

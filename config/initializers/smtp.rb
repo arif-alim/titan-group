@@ -1,5 +1,5 @@
 ActionMailer::Base.smtp_settings = {
-  domain: 'http://www.titan-group.ca/',
+  domain: 'https://www.titan-group.ca/',
   address:        "smtp.sendgrid.net",
   port:            587,
   authentication: :plain,
