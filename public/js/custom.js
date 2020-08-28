@@ -1315,7 +1315,7 @@
                     top : 0,
                     width : "100%",
                     height : "100%",
-                    backgroundColor : "#ffffff",
+                    backgroundColor : "#960C09",
                     zIndex : 900199,
                     "-webkit-transform" : "translateY(100%)",
                     "-ms-transform" : "translateY(100%)",

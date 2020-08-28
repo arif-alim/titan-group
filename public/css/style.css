@@ -1347,7 +1347,7 @@ body {
   background-color: #000;
   line-height: 1.2;
   color: rgba(255, 255, 255, 0.9);
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-weight: 400;
   margin: 0;
   text-rendering: optimizeLegibility;
@@ -1374,7 +1374,7 @@ h6 {
   color: #fff;
   font-weight: 700;
   line-height: 1.2;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Roboto', sans-serif;
   margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -1440,7 +1440,7 @@ span, a {
 
 blockquote cite {
   font-style: normal;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 pre {
@@ -2964,8 +2964,8 @@ a:hover, a:active {
 
 .site-header .extend-container .main-navigation ul li {
   color: #fff;
-  font-size: 13px;
-  font-weight: 400;
+  font-size: 12px;
+  font-weight: 700;
   line-height: 1;
   padding-right: 25px;
   padding-top: 18px;
@@ -2986,14 +2986,13 @@ a:hover, a:active {
   -ms-transform: translate(0);
   transform: translate(0);
   text-transform: uppercase;
-  /*letter-spacing: 1px;*/
   position: relative;
   padding: 10px 10px;
   margin-top: -10px;
   -webkit-animation: shine 1s infinite;
   animation: shine 1s infinite;
   line-height: 15px;
-  font-weight: 600;
+  font-weight: 700;
 }
 
 .site-header .extend-container .main-navigation ul li a:hover {
@@ -3332,7 +3331,7 @@ body.hamburger-menu .header-top {
   position: relative;
   display: inline-block;
   margin-left: 10px;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-weight: 600;
   top: -21px;
   color: #fff;
@@ -3897,7 +3896,7 @@ body.nav-active .header-top .header-container .menu-icon:hover .text-menu .text-
 .nav__list-item {
   position: relative;
   display: block;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 36px;
   letter-spacing: 1px;
   font-weight: bold;
@@ -4613,7 +4612,7 @@ body.nav-active .dsn-nav-bar .icon-m .menu-icon__line {
 }
 
 .next-project .project-title .title-text-header .title-text-header-inner {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Roboto', sans-serif;
   color: #fff;
 }
 
@@ -4972,7 +4971,7 @@ body.nav-active .dsn-nav-bar .icon-m .menu-icon__line {
 .intro-project .title-cover {
   position: absolute;
   width: 100%;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 4vw;
   font-weight: 700;
   text-align: center;
@@ -5636,7 +5635,7 @@ body.nav-active .dsn-nav-bar .icon-m .menu-icon__line {
 }
 
 .box-gallery-vertical h6 {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Roboto', sans-serif;
   margin-bottom: 30px;
   line-height: 1.6;
 }
@@ -6879,7 +6878,7 @@ body.nav-active .dsn-nav-bar .icon-m .menu-icon__line {
   font-weight: 500;
   text-transform: uppercase;
   margin-bottom: 10px;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Roboto', sans-serif;
   opacity: 0.9;
 }
 
@@ -7380,7 +7379,7 @@ body.nav-active .dsn-nav-bar .icon-m .menu-icon__line {
 .our-news .item-new .content .cta a {
   color: #fff;
   font-size: 22px;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-weight: 600;
 }
 
@@ -9031,7 +9030,7 @@ body.nav-active .dsn-nav-bar .icon-m .menu-icon__line {
 }
 
 .headefr-fexid .project-title .title-text-header .title-text-header-inner {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Roboto', sans-serif;
   color: #fff;
 }
 
@@ -9934,7 +9933,7 @@ body.nav-active .dsn-nav-bar .icon-m .menu-icon__line {
 }
 
 .dsn-slider .nav-slider .swiper-slide .content p {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 22px;
   opacity: 0.8;
 }
@@ -10053,7 +10052,7 @@ body.nav-active .dsn-nav-bar .icon-m .menu-icon__line {
 }
 
 .dsn-slider-content .slide-content .slide-content-inner .title-text-header .title-text-header-inner {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Roboto', sans-serif;
   color: #fff;
   z-index: 0;
   font-size: 50px;
@@ -10982,7 +10981,7 @@ body.dsn-show-work .dsn-all-work .list-main:nth-of-type(20) .work-item {
   font-weight: 500;
   text-transform: uppercase;
   margin-bottom: 10px;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Roboto', sans-serif;
   opacity: 0.9;
 }
 
@@ -11126,7 +11125,7 @@ body.dsn-show-work .dsn-all-work .list-main:nth-of-type(20) .work-item {
   font-weight: 500;
   text-transform: uppercase;
   margin-bottom: 10px;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Roboto', sans-serif;
   opacity: 0.9;
 }
 
@@ -11821,7 +11820,7 @@ body.dsn-show-work .dsn-all-work .list-main:nth-of-type(20) .work-item {
 }
 
 .box-info-contact h5 {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Roboto', sans-serif;
   margin-bottom: 30px;
   line-height: 1.6;
 }
@@ -12268,7 +12267,7 @@ footer p {
   /*letter-spacing: 1px;*/
   line-height: 1.6;
   font-variant-numeric: proportional-nums;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 .v-light footer a, .v-light
