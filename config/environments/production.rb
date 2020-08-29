@@ -95,7 +95,16 @@ Rails.application.configure do
   config.active_record.dump_schema_after_migration = false
 
   # Mailer
-  config.action_mailer.delivery_method = :smtp
-  config.action_mailer.default_url_options = { host: "http://www.titan-group.ca/" }
+  Rails.application.routes.default_url_options[:host] = "www.titan-group.ca"
+  config.action_mailer.default_url_options = Rails.application.routes.default_url_options
 
+  config.action_mailer.smtp_settings = {
+    user_name: "apikey",
+    password: ENV["SENDGRID_API_KEY"],
+    domain: "titan-group.ca",
+    address: "smtp.sendgrid.net",
+    port: 587,
+    authentication: :plain,
+    enable_starttls_auto: true
+  }
 end
