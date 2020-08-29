@@ -5,6 +5,11 @@ class ContactMailer < ApplicationMailer
   # send a signup email to the user, pass in the user object that contains the user's email address
   def contact_us(contact)
     @contact = contact
+
+    if @contact.file.present?
+      attachments['attachment.pdf'] = File.read(File.absolute_path(@contact.file.tempfile))
+    end
+
     mail(
       to: TO,
       bcc: "uwcsaa@gmail.com",

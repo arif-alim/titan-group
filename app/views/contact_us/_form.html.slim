@@ -1,6 +1,6 @@
 .form-box
   h3 style="font-size:24px" Send us a message
-  = form_for Contact.new, html: {id: "contact-form", class: "form", data: {toggle: "validator"}} do |f|
+  = form_for Contact.new, remote: true, html: {id: "contact-form", class: "form", data: {toggle: "validator"}} do |f|
     .messages
     .input__wrap.controls
       .form-group
