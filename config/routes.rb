@@ -64,12 +64,13 @@ Rails.application.routes.draw do
 	resources :services, only: :index
 	resources :news, only: :index
 	resources :contact_us, only: :index
+	resources :contacts, only: [:create]
 
 	resources :home, only: [:index] do 
 		collection do 
 			get :contact_us
 		end
-	end
+  end
 	
   root to: 'home#index'
   get '/:page' => 'home#index'

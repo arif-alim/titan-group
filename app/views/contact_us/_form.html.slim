@@ -1,0 +1,30 @@
+.form-box
+  h3 style="font-size:24px" Send us a message
+  = form_for Contact.new, html: {id: "contact-form", class: "form", data: {toggle: "validator"}} do |f|
+    .messages
+    .input__wrap.controls
+      .form-group
+        .entry
+          = f.text_field :name, id: "form_name", placeholder: "Type your name", required: "required", data: {error: "name is required."}
+        .help-block.with-errors
+      .form-group
+        .entry
+          = f.email_field :email, id: "form_email", placeholder: "Type your Email Address", required: "required", data: {error: "Valid email is required."}
+        .help-block.with-errors
+      .form-group
+        .entry
+          = f.number_field :number, id: "form_number", placeholder: "Type your number", required: "required", data: {error: "number is required."}
+        .help-block.with-errors
+      .form-group
+        .entry
+          = f.text_area :message, id: "form_message", placeholder: "Tell us a bit about your project", required: "required", data: {error: "Please, leave us a message."}, class: "form-control"
+        .help-block.with-errors
+      .form-group
+        p
+            | Attach project documents
+        br/
+        .entry
+          = f.file_field :file, id: "form_file", placeholder: "Attach your project"
+        .help-block.with-errors
+      .image-zoom data-dsn="parallax"
+        = f.submit "Message Titan", class: "button"
