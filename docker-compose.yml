@@ -1,0 +1,20 @@
+version: "3.5"
+services:
+  web:
+    build: .
+    command: ./config/docker/start.sh
+    volumes:
+      - .:/app
+      - bundle:/bundle
+      - $SSH_AUTH_SOCK:/ssh-agent
+      - ~/.ssh/known_hosts:/etc/ssh/ssh_known_hosts
+    ports:
+      - "3009:3000"
+    env_file:
+      - ./.env
+
+volumes:
+  pgdata:
+    driver: local
+  bundle:
+    driver: local
