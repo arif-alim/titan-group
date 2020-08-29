@@ -1,14 +1,16 @@
-FROM ruby:2.3.3
+FROM ruby:2.6.6
 
 MAINTAINER Maxim Zelenkin <nudepatch@gmail.com>
 
 RUN curl -sL https://deb.nodesource.com/setup_12.x | bash -
+RUN curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | apt-key add -
+RUN echo "deb https://dl.yarnpkg.com/debian/ stable main" | tee /etc/apt/sources.list.d/yarn.list
 
 RUN apt update -q && apt install -y \
     build-essential \
     libpq-dev \
-    postgresql-client \
     nodejs \
+    yarn \
     nano > /dev/null
 
 ENV APP_PATH /app
