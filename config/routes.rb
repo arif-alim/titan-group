@@ -1,5 +1,4 @@
 Rails.application.routes.draw do
-  get 'contacts/new'
   resources :fireproofing, only: [:index] do
   	collection do
   		get :cementitious
@@ -71,9 +70,10 @@ Rails.application.routes.draw do
 			get :contact_us
 		end
   end
-	
+
+	mount LetterOpenerWeb::Engine, at: "/letter_opener" if Rails.env.development?
+
   root to: 'home#index'
   get '/:page' => 'home#index'
   get 'sitemap.xml', :to => 'sitemap#index', :defaults => {:format => 'xml'}
-
 end
