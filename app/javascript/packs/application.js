@@ -6,7 +6,6 @@
 require("@rails/ujs").start()
 
 import("jquery")
-// import "js/plugins"
 import "js/custom"
 
 // Uncomment to copy all static images under ../images to the output folder and reference
