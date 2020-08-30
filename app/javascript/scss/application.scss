@@ -11,6 +11,10 @@ $fa-font-path: '~@fortawesome/fontawesome-free/webfonts';
 @import "~magnific-popup";
 @import "~slick-carousel/slick/slick.scss";
 
-@import "./style/style";
+// NOW CSS ARE USED.
+@import "../css/style";
+//@import "./style/style"; // Uncomment this and delete line above to switch to scss
+
 @import "./plugins/aos";
 // youtubepopup?
+

@@ -1,0 +1,22 @@
+#contact-form {
+  #last_name {
+    display: none;
+  }
+  .messages {
+    .alert-success, .alert-error {
+      background: #fff;
+      padding: 15px;
+      margin-bottom: 30px;
+      font-weight: 700;
+    }
+
+    .alert-success {
+      color: green;
+    }
+
+    .alert-error {
+      color: darkred;
+    }
+  }
+}
+
