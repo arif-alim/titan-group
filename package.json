@@ -2,7 +2,7 @@
   "name": "titan",
   "private": true,
   "dependencies": {
-    "@fortawesome/fontawesome-free": "^5.14.0",
+    "@fortawesome/fontawesome-free": "^5.0.6",
     "@rails/ujs": "^6.0.3-2",
     "@rails/webpacker": "4.3.0",
     "animate.css": "^4.1.0",
