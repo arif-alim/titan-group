@@ -42,3 +42,4 @@ group :production do
 end
 
 gem "slim-rails"
+gem "mail_form", github: "heartcombo/mail_form", ref: "e101d97"
