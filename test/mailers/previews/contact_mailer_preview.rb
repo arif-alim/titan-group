@@ -8,7 +8,6 @@ class ContactMailerPreview < ActionMailer::Preview
       number: "123",
       message: "Hello everyone"
     )
-    # add file
     ContactMailer.contact_us(contact)
   end
 end
