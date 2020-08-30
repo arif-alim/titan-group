@@ -8,8 +8,10 @@ gem 'rails', '~> 6.0.3', '>= 6.0.3.1'
 # Use Puma as the app server
 gem 'puma', '~> 4.1'
 
-# Transpile app-like JavaScript. Read more: https://github.com/rails/webpacker
-gem 'webpacker', '~> 4.0'
+# Use SCSS for stylesheets
+gem 'sass-rails'
+# Use Uglifier as compressor for JavaScript assets
+gem 'uglifier', '>= 1.3.0'
 
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.4.2', require: false
