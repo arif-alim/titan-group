@@ -1,11 +1,1 @@
-var contact_form = $( "#contact-form" );
-var messageAlert = "alert-" + "<%= alert %>";
-var messageText = "<%= message %>";
-var alertBox = "<div class=\"alert " + messageAlert + " alert-dismissable\"><button type=\"button\" class=\"close\" data-dismiss=\"alert\" aria-hidden=\"true\">&times;</button>" + messageText + "</div>";
-
-if ( messageAlert && messageText ) {
-  contact_form.find( ".messages" ).html( alertBox );
-  if ( "<%= alert %>" !== "error" ) {
-    contact_form[ 0 ].reset();
-  }
-}
+window.contactFromCallback("<%= alert %>", "<%= message %>");
