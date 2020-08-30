@@ -4,7 +4,7 @@ class Contact < MailForm::Base
 	attributes :number, validate: true
 	attributes :message, validate: true
 	attributes :file, validate: :validate_file
-	#attributes :last_name, captcha: true
+	attributes :last_name, validate: :captcha
 
 	def validate_file
 		return if file.blank?
@@ -12,5 +12,9 @@ class Contact < MailForm::Base
 		if (File.size(file.tempfile).to_f / 1024 / 1024) > 50
 			self.errors.add(:file, "can't be greater than 50 megabytes")
 		end
+	end
+
+	def captcha
+		self.errors.add(:last_name, "error") if last_name.present?
 	end
 end
