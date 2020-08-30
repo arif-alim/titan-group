@@ -1,7 +1,7 @@
 class ContactsController < ApplicationController
 	def create
 	  @contact = Contact.new(contact_params)
-		if ContactMailer.contact_us(@contact).deliver
+		if @contact.valid? && ContactMailer.contact_us(@contact).deliver
 			message = "Thank you for contacting us, we'll get back to you shortly."
 			alert = "success"
 		else

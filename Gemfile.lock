@@ -1,3 +1,12 @@
+GIT
+  remote: https://github.com/heartcombo/mail_form.git
+  revision: e101d9735f2f38457cca89e0a71485055d406ba0
+  ref: e101d97
+  specs:
+    mail_form (1.8.0)
+      actionmailer (>= 5.0)
+      activemodel (>= 5.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -208,6 +217,7 @@ DEPENDENCIES
   capybara (>= 2.15)
   letter_opener_web
   listen (~> 3.2)
+  mail_form!
   puma (~> 4.1)
   rails (~> 6.0.3, >= 6.0.3.1)
   rails_12factor
