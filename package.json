@@ -2,7 +2,21 @@
   "name": "titan",
   "private": true,
   "dependencies": {
-    "@rails/webpacker": "4.3.0"
+    "@fortawesome/fontawesome-free": "^5.14.0",
+    "@rails/ujs": "^6.0.3-2",
+    "@rails/webpacker": "4.3.0",
+    "animate.css": "^4.1.0",
+    "bootstrap": "4.3.1",
+    "gsap": "1.20.4",
+    "isotope-layout": "3.0.5",
+    "jquery": "^3.5.1",
+    "jquery-bridget": "^2.0.1",
+    "justifiedGallery": "3.7.0",
+    "magnific-popup": "1.1.0",
+    "scrollmagic": "2.0.6",
+    "slick-carousel": "^1.8.1",
+    "smooth-scrollbar": "^8.5.2",
+    "swiper": "4.5.0"
   },
   "devDependencies": {
     "webpack-dev-server": "^3.11.0"
