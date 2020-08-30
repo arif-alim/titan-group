@@ -14,6 +14,7 @@
     "justifiedGallery": "3.7.0",
     "magnific-popup": "1.1.0",
     "scrollmagic": "2.0.6",
+    "scrollmagic-plugin-gsap": "^1.0.4",
     "slick-carousel": "^1.8.1",
     "smooth-scrollbar": "^8.5.2",
     "swiper": "4.5.0"

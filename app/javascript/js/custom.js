@@ -1,5 +1,8 @@
-import ScrollMagic from 'scrollmagic';
-import TweenMax from 'gsap';
+import * as ScrollMagic from "scrollmagic";
+import { TweenMax } from "gsap";
+import { ScrollMagicPluginGsap } from "scrollmagic-plugin-gsap";
+ScrollMagicPluginGsap(ScrollMagic, TweenMax);
+
 import Scrollbar from 'smooth-scrollbar';
 window.Scrollbar = Scrollbar;
 import Isotope from 'isotope-layout';
