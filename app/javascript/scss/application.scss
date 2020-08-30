@@ -7,9 +7,8 @@ $fa-font-path: '~@fortawesome/fontawesome-free/webfonts';
 @import '~@fortawesome/fontawesome-free/scss/regular';
 @import "~animate.css"; // where used?
 @import "~swiper/src/swiper";
-//@import "~justifiedGallery";
+@import "~justifiedGallery/dist/css/justifiedGallery"; // where used?
 @import "~magnific-popup";
 @import "~slick-carousel/slick/slick.scss";
 
-//@import "plugins";
 @import "./style/style";
