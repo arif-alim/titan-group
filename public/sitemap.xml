@@ -1,43 +1,143 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"> 
   <url>
-    <loc>https://www.titan-group.ca/</loc>
+    <loc>https://www.titan-group.ca</loc>
     <lastmod>2020-08-08</lastmod>
   </url>
   <url>
-    <loc>https://www.titan-group.ca/about_us/</loc>
+    <loc>https://www.titan-group.ca/about_us</loc>
     <lastmod>2020-08-08</lastmod>
   </url>
   <url>
-    <loc>https://www.titan-group.ca/fireproofing/</loc>
+    <loc>https://www.titan-group.ca/fireproofing</loc>
     <lastmod>2020-08-08</lastmod>
   </url>
   <url>
-    <loc>https://www.titan-group.ca/fire_stopping/</loc>
+    <loc>https://www.titan-group.ca/fireproofing/cementitious</loc>
+    <lastmod>2020-08-31</lastmod>
+  </url>
+  <url>
+    <loc>https://www.titan-group.ca/fireproofing/intumescent</loc>
+    <lastmod>2020-08-31</lastmod>
+  </url>
+  <url>
+    <loc>https://www.titan-group.ca/fireproofing/epoxy</loc>
+    <lastmod>2020-08-31</lastmod>
+  </url>
+  <url>
+    <loc>https://www.titan-group.ca/fire_stopping</loc>
     <lastmod>2020-08-08</lastmod>
   </url>
   <url>
-    <loc>https://www.titan-group.ca/specialty_coating/</loc>
+    <loc>https://www.titan-group.ca/fire_stopping/caulking</loc>
+    <lastmod>2020-08-31</lastmod>
+  </url>
+  <url>
+    <loc>https://www.titan-group.ca/fire_stopping/spray</loc>
+    <lastmod>2020-08-31</lastmod>
+  </url>
+  <url>
+    <loc>https://www.titan-group.ca/insulation</loc>
     <lastmod>2020-08-08</lastmod>
   </url>
   <url>
-    <loc>https://www.titan-group.ca/insulation/</loc>
+    <loc>https://www.titan-group.ca/insulation/commercial</loc>
+    <lastmod>2020-08-31</lastmod>
+  </url>
+  <url>
+    <loc>https://www.titan-group.ca/insulation/residential</loc>
+    <lastmod>2020-08-31</lastmod>
+  </url>
+  <url>
+    <loc>https://www.titan-group.ca/specialty_coating</loc>
     <lastmod>2020-08-08</lastmod>
   </url>
   <url>
-    <loc>https://www.titan-group.ca/projects/</loc>
+    <loc>https://www.titan-group.ca/specialty_coating/roof_coating</loc>
+    <lastmod>2020-08-31</lastmod>
+  </url>
+  <url>
+    <loc>https://www.titan-group.ca/specialty_coating/zinc_primers</loc>
+    <lastmod>2020-08-31</lastmod>
+  </url>
+  <url>
+    <loc>https://www.titan-group.ca/specialty_coating/epoxy_primers_and_finishes</loc>
+    <lastmod>2020-08-31</lastmod>
+  </url>
+  <url>
+    <loc>https://www.titan-group.ca/specialty_coating/polyurethane_finishes</loc>
+    <lastmod>2020-08-31</lastmod>
+  </url>
+  <url>
+    <loc>https://www.titan-group.ca/specialty_coating/high_temperature_coatings</loc>
+    <lastmod>2020-08-31</lastmod>
+  </url>
+  <url>
+    <loc>https://www.titan-group.ca/specialty_coating/acrylics_water_based</loc>
+    <lastmod>2020-08-31</lastmod>
+  </url>
+  <url>
+    <loc>https://www.titan-group.ca/specialty_coating/linings</loc>
+    <lastmod>2020-08-31</lastmod>
+  </url>
+  <url>
+    <loc>https://www.titan-group.ca/specialty_coating/alkyd_and_siloxane_coatings</loc>
+    <lastmod>2020-08-31</lastmod>
+  </url>
+  <url>
+    <loc>https://www.titan-group.ca/specialty_coating/urethane_finishes</loc>
+    <lastmod>2020-08-31</lastmod>
+  </url>
+  <url>
+    <loc>https://www.titan-group.ca/shop_application</loc>
+    <lastmod>2020-08-31</lastmod>
+  </url>
+  <url>
+    <loc>https://www.titan-group.ca/projects</loc>
     <lastmod>2020-08-08</lastmod>
   </url>
   <url>
-    <loc>https://www.titan-group.ca/projects/</loc>
+    <loc>https://www.titan-group.ca/projects/ace_hotel</loc>
+    <lastmod>2020-08-31</lastmod>
+  </url>
+  <url>
+    <loc>https://www.titan-group.ca/projects/ttc_dupont_station</loc>
+    <lastmod>2020-08-31</lastmod>
+  </url>
+  <url>
+    <loc>https://www.titan-group.ca/projects/ttc_glencairn_station</loc>
+    <lastmod>2020-08-31</lastmod>
+  </url>
+  <url>
+    <loc>https://www.titan-group.ca/projects/ttc_greenwood_yard</loc>
+    <lastmod>2020-08-31</lastmod>
+  </url>
+  <url>
+    <loc>https://www.titan-group.ca/projects/hudson_bay</loc>
+    <lastmod>2020-08-31</lastmod>
+  </url>
+  <url>
+    <loc>https://www.titan-group.ca/projects/king_avenue_west</loc>
+    <lastmod>2020-08-31</lastmod>
+  </url>
+  <url>
+    <loc>https://www.titan-group.ca/projects/yonge_street</loc>
+    <lastmod>2020-08-31</lastmod>
+  </url>
+  <url>
+    <loc>https://www.titan-group.ca/projects/kylemore_communities</loc>
+    <lastmod>2020-08-31</lastmod>
+  </url>
+  <url>
+    <loc>https://www.titan-group.ca/projects/dasha_retail</loc>
+    <lastmod>2020-08-31</lastmod>
+  </url>
+  <url>
+    <loc>https://www.titan-group.ca/news</loc>
     <lastmod>2020-08-08</lastmod>
   </url>
   <url>
-    <loc>https://www.titan-group.ca/news/</loc>
-    <lastmod>2020-08-08</lastmod>
-  </url>
-  <url>
-    <loc>https://www.titan-group.ca/contact_us/</loc>
+    <loc>https://www.titan-group.ca/contact_us</loc>
     <lastmod>2020-08-08</lastmod>
   </url>
 </urlset>
