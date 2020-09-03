@@ -7,7 +7,7 @@ Rails.application.routes.draw do
   	end
   end
 
-  resources :fire_stopping, only: [:index] do
+  resources :firestopping, only: [:index] do
   	collection do
   		get :caulking
   		get :spray
@@ -50,7 +50,6 @@ Rails.application.routes.draw do
 			get :king_avenue_west
 			get :yonge_street
 			get :dasha_retail
-			get :hudson_bay
 			get :kylemore_communities
 			get :lawyer_office
 			get :ttc_dupont_station

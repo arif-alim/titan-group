@@ -14,9 +14,6 @@ class ProjectsController < ApplicationController
 	def dasha_retail
 	end
 
-	def hudson_bay
-	end
-
 	def kylemore_communities
 	end
 
