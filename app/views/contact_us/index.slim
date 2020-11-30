@@ -26,7 +26,8 @@ header
               li
                 p
                   b Email
-                a href="mailto:info@titanfireproofing.com" target="_blank"  info@titanfireproofing.com
+                a href="mailto:info@titan-group.com" target="_blank"  
+                  | info@titan-group.com
               li
                 p 
                   b Address
@@ -38,69 +39,6 @@ header
                   | ON L3T 0C4
         .col-lg-6
           = render "contact_us/form"
-
-    / .container.mb-50
-    /   .row
-    /     .col-lg-6
-    /       .box-info-contact
-    /         h3 style="font-size:24px"
-    /           | Starting a new project?
-    /         p
-    /           | We're looking forward to working with you on your project!
-    /       .box-info-contact
-    /         ul
-    /           li
-    /             p 
-    /               b Phone
-    /             a href="tel:+14169039033"  +1 416.903.9033
-        
-    /       .box-info-contact
-    /         ul
-    /           li
-    /             p 
-    /               b Email
-    /             a href="mailto:info@titanfireproofing.com" target="_blank"  info@titanfireproofing.com
-        
-    /       .box-info-contact
-    /         ul
-    /           li
-    /             p
-    /               b Address
-    /             a href="https://goo.gl/maps/MmLEabF9ryEcD6Go9" target="_blank" 
-    /               | 203-250 Sheppard Ave E.
-    /               br/
-    /               | North York
-    /               br/
-    /               | ON M2N6M9
-    /   .row.mt-30
-    /     .col-lg-6
-    /       .form-box style="padding: 0px 0px"
-    /         h3 style="font-size:24px"
-    /           | Contact Us
-            form#contact-form.form action="contact.php" data-toggle="validator" method="post" 
-              .messages
-              .input__wrap.controls
-                .form-group
-                  .entry
-                    input#form_name data-error=("name is required.") name="name" placeholder=("Type your name") required="required" type="text" /
-                  .help-block.with-errors
-                .form-group
-                  .entry
-                    input#form_email data-error=("Valid email is required.") name="email" placeholder=("Type your Email Address") required="required" type="email" /
-                  .help-block.with-errors
-                .form-group
-                  .entry
-                    input#form_number data-error=("number is required.") name="number" placeholder=("Type your number") required="required" type="number" /
-                  .help-block.with-errors
-                .form-group
-                  .entry
-                    textarea#form_message.form-control data-error="Please,leave us a message." name="message" placeholder=("Tell us a bit about your project") required="required" 
-                  .help-block.with-errors
-                .image-zoom data-dsn="parallax" 
-                  button Message Titan
-    
-
-
 
     .container-fluid
       #map.map-custom data-dsn-lat="43.7641958" data-dsn-len="-79.4009644" data-dsn-zoom="14" 
