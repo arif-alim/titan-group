@@ -28,4 +28,7 @@ class SpecialtyCoatingController < ApplicationController
 
 	def urethane_finishes
 	end
+
+  def polyurea_coating
+  end
 end

@@ -1,0 +1,2 @@
+module AbrasiveBlastingHelper
+end

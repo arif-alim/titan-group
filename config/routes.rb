@@ -32,6 +32,7 @@ Rails.application.routes.draw do
 			get :linings
 			get :alkyd_and_siloxane_coatings
 			get :urethane_finishes
+      get :polyurea_coating
 		end
 	end
 
@@ -43,6 +44,8 @@ Rails.application.routes.draw do
 	end
 
 	resources :shop_application, only: :index
+
+  resources :abrasive_blasting, only: :index
 
 	resources :projects, only: [:index] do
 		collection do
