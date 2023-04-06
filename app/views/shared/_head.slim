@@ -13,7 +13,7 @@ link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,
 link href="//img/favicon.ico"
 
  /  ------------- Global site tag (gtag.js) - Google Analytics ---------------
-script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-122493076-3" 
+script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-122493076-3"
 javascript:
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
@@ -22,5 +22,5 @@ javascript:
 
 = csrf_meta_tags
 = csp_meta_tag
-= stylesheet_pack_tag "application"
-
+= stylesheet_link_tag "application" , "data-turbo-track": "reload"
+= javascript_importmap_tags
