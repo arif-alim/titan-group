@@ -1,10 +1,10 @@
 source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
-ruby '2.6.6'
+ruby '3.0.3'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '~> 6.0.3', '>= 6.0.3.1'
+gem 'rails', '~> 7.0.4.3'
 # Use Puma as the app server
 gem 'puma', '~> 4.1'
 
@@ -43,3 +43,4 @@ end
 
 gem "slim-rails"
 gem "mail_form", github: "heartcombo/mail_form", ref: "e101d97"
+gem "sprockets-rails"
