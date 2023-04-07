@@ -7,8 +7,8 @@ import "controllers";
 // a relevant structure within app/javascript and only use these pack files to reference
 // that code so it'll be compiled.
 
-// import "../../node_modules/jquery.js";
-// import("../../node_modules/scrollmagic");
-// import("./js/custom");
-// import("./js/contact_form");
-// import("./js/validator");
+import "jquery";
+import "scrollmagic";
+import "./js/custom";
+import "./js/contact_form";
+import "./js/validator";

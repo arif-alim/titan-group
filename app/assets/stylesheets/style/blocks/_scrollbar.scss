@@ -1,5 +1,7 @@
-.dsn-effect-scroll:not(.dsn-mobile) #dsn-scrollbar, .sidebar-single , .dsn-work-scrollbar {
-  overflow: hidden;
+.dsn-effect-scroll:not(.dsn-mobile) #dsn-scrollbar,
+.sidebar-single,
+.dsn-work-scrollbar {
+  overflow: scroll;
   height: 100vh;
 
   .scrollbar-track {
@@ -13,7 +15,9 @@
   }
 }
 
-.admin-bar.dsn-effect-scroll:not(.dsn-mobile) #dsn-scrollbar, .sidebar-single  , .dsn-work-scrollbar{
+.admin-bar.dsn-effect-scroll:not(.dsn-mobile) #dsn-scrollbar,
+.sidebar-single,
+.dsn-work-scrollbar {
   $narrow-offset: 46px;
   $wide-offset: 32px;
   height: calc(100vh - #{$narrow-offset});
