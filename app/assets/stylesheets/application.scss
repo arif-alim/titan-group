@@ -1,0 +1,15 @@
+@import "../../../node_modules/bootstrap/scss/bootstrap-grid";
+
+$fa-font-path: "../../../node_modules/@fortawesome/fontawesome-free/webfonts";
+@import "../../../node_modules/@fortawesome/fontawesome-free/scss/fontawesome";
+@import "../../../node_modules/@fortawesome/fontawesome-free/scss/solid";
+@import "../../../node_modules/@fortawesome/fontawesome-free/scss/brands";
+@import "../../../node_modules/@fortawesome/fontawesome-free/scss/regular";
+@import "../../../node_modules/swiper/src/swiper";
+@import "../../../node_modules/justifiedGallery/dist/css/justifiedGallery";
+@import "../../../node_modules/slick-carousel/slick/slick.scss";
+
+@import "./css/style";
+@import "./style/style";
+
+@import "./scss/plugins/aos.css";
