@@ -11,3 +11,4 @@ Rails.application.config.assets.version = "1.0"
 # folder are already added.
 # Rails.application.config.assets.precompile += %w( admin.js admin.css )
 Rails.application.config.assets.precompile += %w( controllers/hello_controller.js controllers/index.js )
+Rails.application.config.assets.precompile << %r{font-awesome/fontawesome-free/webfonts/[\w-]+\.(?:eot|svg|ttf|woff2?)$}
